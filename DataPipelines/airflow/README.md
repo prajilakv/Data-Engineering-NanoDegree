@@ -32,3 +32,6 @@ Data Pipeline with Apache Airflow
 | |____helpers
 | | |____ __init__.py
 | | |____ sql_queries.py       # SQL queries for building up dimensional tables
+
+![image](https://user-images.githubusercontent.com/31400832/181036869-b6a3ef2e-42f1-4fb6-9394-7df1c858d6a9.png)
+
