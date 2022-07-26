@@ -35,3 +35,11 @@ Song data: s3://udacity-dend/song_data
 
 ![image](https://user-images.githubusercontent.com/31400832/181036869-b6a3ef2e-42f1-4fb6-9394-7df1c858d6a9.png)
 
+
+## Steps To Run
+
+1. Create a IAM user and Redshift cluster on your account
+2. Turn on Airflow by running Airflow/start.sh
+3. Create AWS and Redshift connections on Airflow Web UI
+4. Run create_table _dag DAG to create tables on Redshift
+5. Run udac_example _dag DAG to trigger ETL data pipeline
