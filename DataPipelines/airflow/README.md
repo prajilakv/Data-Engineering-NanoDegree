@@ -12,10 +12,10 @@ Song data: s3://udacity-dend/song_data
 
 ## Project Structure
 
-Data Pipeline with Apache Airflow
+### File Structure
 
-|____dags
-| |____ create_tables_dag.py   # DAG for creating tables on Redshift
+1 dags
+ - create_tables_dag.py   # DAG for creating tables on Redshift
 | |____ create_tables.sql      # SQL CREATE queries
 | |____ udac_example_dag.py    # Main DAG for this ETL data pipeline
 |
@@ -32,6 +32,8 @@ Data Pipeline with Apache Airflow
 | |____helpers
 | | |____ __init__.py
 | | |____ sql_queries.py       # SQL queries for building up dimensional tables
+
+### DAG Graph view
 
 ![image](https://user-images.githubusercontent.com/31400832/181036869-b6a3ef2e-42f1-4fb6-9394-7df1c858d6a9.png)
 
